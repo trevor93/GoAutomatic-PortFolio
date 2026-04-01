@@ -12,7 +12,7 @@ export default function FinalCTA() {
           and feels more <span className="font-semibold text-gold-400">consistent</span>
         </h2>
         <p className="text-lg text-gray-300 mb-12 leading-relaxed font-light">
-          Bring the offer, the footage, or even just the brief. The system handles the rest.
+          Bring the offer, the footage, or even just the brief. We handle the rest.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
