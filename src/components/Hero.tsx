@@ -39,7 +39,7 @@ export default function Hero() {
           </div>
 
           <p className="text-xs text-gray-400 italic mt-6 font-light tracking-wide">
-            No pressure. If you don't need this, we'll tell you.
+            No pressure. If you don't want this, we'll tell you exactly why you need it.
           </p>
         </div>
       </div>
