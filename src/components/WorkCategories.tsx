@@ -5,10 +5,10 @@ export default function WorkCategories() {
     <section className="py-24 px-6 lg:px-8 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
-            Featured work categories
+          <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
+            Featured <span className="font-semibold text-gold-600">Work Categories</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light">
             Specialized production across formats that matter for modern business growth.
           </p>
         </div>
@@ -17,15 +17,15 @@ export default function WorkCategories() {
           {workCategories.map((category, index) => (
             <div
               key={index}
-              className="group bg-gradient-to-br from-white to-gray-50 p-8 rounded-sm border border-gray-200 hover:border-gold-400 transition-all duration-300 cursor-pointer"
+              className="group bg-gradient-to-br from-white to-cream-50 p-8 rounded-2xl border border-gold-200/30 hover:border-gold-400 hover:shadow-xl hover:shadow-gold-100/20 transition-all duration-300 cursor-pointer"
             >
               <div className="flex items-start justify-between mb-4">
-                <h3 className="text-xl font-semibold text-gray-900 group-hover:text-gold-600 transition-colors">
+                <h3 className="text-lg font-semibold text-gray-800 group-hover:text-gold-600 transition-colors">
                   {category.title}
                 </h3>
-                <div className="w-2 h-2 bg-gold-400 rounded-full mt-2"></div>
+                <div className="w-2 h-2 bg-gradient-to-br from-gold-400 to-gold-600 rounded-full mt-2 shadow-sm shadow-gold-400/50"></div>
               </div>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed text-sm font-light">
                 {category.description}
               </p>
             </div>

@@ -35,13 +35,13 @@ export default function WhyChoose() {
   ];
 
   return (
-    <section id="about" className="py-24 px-6 lg:px-8 bg-gray-50">
+    <section id="about" className="py-24 px-6 lg:px-8 bg-cream-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
-            Why clients choose this service
+          <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
+            Why Clients <span className="font-semibold text-gold-600">Choose This Service</span>
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light">
             Reliable. Professional. Built for business growth.
           </p>
         </div>
@@ -50,15 +50,15 @@ export default function WhyChoose() {
           {reasons.map((reason, index) => (
             <div
               key={index}
-              className="bg-white rounded-sm p-8 border border-gray-200 hover:border-gold-400 transition-all duration-300"
+              className="bg-white rounded-2xl p-8 border border-gold-200/30 hover:border-gold-400 hover:shadow-xl hover:shadow-gold-100/20 transition-all duration-300"
             >
-              <div className="w-12 h-12 bg-gold-50 rounded-sm flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-gradient-to-br from-gold-100 to-gold-200 rounded-xl flex items-center justify-center mb-6">
                 <reason.icon className="w-6 h-6 text-gold-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">
+              <h3 className="text-base font-semibold text-gray-800 mb-3">
                 {reason.title}
               </h3>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed text-sm font-light">
                 {reason.description}
               </p>
             </div>
