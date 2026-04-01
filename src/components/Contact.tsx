@@ -49,7 +49,7 @@ export default function Contact() {
                     Email
                   </div>
                   <div className="text-sm text-gray-600 font-light">
-                    hello@videosystems.pro
+                    salmin@naiminvestment.com
                   </div>
                 </div>
               </a>
@@ -66,7 +66,7 @@ export default function Contact() {
                     WhatsApp
                   </div>
                   <div className="text-sm text-gray-600 font-light">
-                    Quick response for urgent inquiries
+                    +27 69 613 3396
                   </div>
                 </div>
               </a>
