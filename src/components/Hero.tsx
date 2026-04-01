@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="text-center">
           <div className="inline-block mb-8 px-6 py-2 bg-white rounded-full shadow-sm border border-gold-200/30">
             <span className="text-sm font-medium text-gray-600">
-              From Chaos <span className="text-gold-600">→ Clean</span>
+              From Manual <span className="text-gold-600">→ Automatic Growth</span>
             </span>
           </div>
 
