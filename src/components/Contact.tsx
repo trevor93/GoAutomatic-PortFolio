@@ -23,7 +23,7 @@ export default function Contact() {
             Start a <span className="font-semibold text-gold-600">Conversation</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light">
-            Ready to discuss your project? Reach out and let's talk about how video content can help your business grow.
+            Ready to discuss your project? Reach out and let's talk about what pain are you currently facing in your business.
           </p>
         </div>
 
