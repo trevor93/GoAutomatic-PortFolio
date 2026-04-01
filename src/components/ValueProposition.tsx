@@ -20,13 +20,13 @@ export default function ValueProposition() {
   ];
 
   return (
-    <section className="py-24 px-6 lg:px-8 bg-gray-50">
+    <section className="py-24 px-6 lg:px-8 bg-cream-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            From Chaos <span className="text-gold-500">→ Clean</span>
+          <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
+            What <span className="font-semibold text-gold-600">You Get</span>
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light leading-relaxed">
             It's video production, creative strategy, content systems, and repeatable delivery built for brands that publish with purpose.
           </p>
         </div>
@@ -35,28 +35,28 @@ export default function ValueProposition() {
           {values.map((value, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-lg border border-gray-200 hover:border-gold-400 transition-all duration-300"
+              className="bg-white p-8 rounded-2xl border border-gold-200/30 hover:border-gold-400 hover:shadow-xl hover:shadow-gold-100/20 transition-all duration-300"
             >
-              <div className="w-16 h-16 bg-gold-50 rounded-full flex items-center justify-center mb-6">
-                <value.icon className="w-8 h-8 text-gold-500" />
+              <div className="w-14 h-14 bg-gradient-to-br from-gold-100 to-gold-200 rounded-xl flex items-center justify-center mb-6">
+                <value.icon className="w-7 h-7 text-gold-600" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3 leading-snug">
+              <h3 className="text-base font-semibold text-gray-800 mb-3 leading-snug">
                 {value.title}
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-600 leading-relaxed text-sm font-light">
                 {value.description}
               </p>
             </div>
           ))}
         </div>
 
-        <div className="mt-16 p-10 md:p-14 bg-white border border-gold-300 rounded-lg">
+        <div className="mt-16 p-10 md:p-14 bg-gradient-to-br from-white to-cream-100 border border-gold-200/40 rounded-3xl shadow-lg shadow-gold-100/10">
           <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              What <span className="text-gold-500">You Get</span>
+            <h3 className="text-2xl md:text-3xl font-light text-gray-800 mb-4">
+              From UGC-style ads to faceless explainers
             </h3>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              From UGC-style ads to faceless explainers, product promos to multilingual content—professional video production that adapts to how your business actually needs to communicate.
+            <p className="text-base text-gray-600 leading-relaxed font-light">
+              Product promos to multilingual content—professional video production that adapts to how your business actually needs to communicate.
             </p>
           </div>
         </div>
