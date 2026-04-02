@@ -4,18 +4,18 @@ export default function ValueProposition() {
   const values = [
     {
       icon: Target,
-      title: 'Built for brands that need more than random content',
-      description: 'Every video is structured for clarity, trust, and business results—not just views.'
+      title: 'Professional Websites',
+      description: 'Clean, modern business websites built to improve trust, present your offer clearly, and help visitors take action.'
     },
     {
       icon: Zap,
-      title: 'Clear process. Fast turnaround. Professional output.',
-      description: 'Organized workflows that eliminate guesswork and deliver polished content on schedule.'
+      title: 'Fast Technical Support',
+      description: 'Troubleshooting, fixes, and debugging support to help solve issues quickly and keep your website or workflow running properly.'
     },
     {
       icon: Repeat,
-      title: 'Strategy, scripting, editing, packaging, and delivery in one workflow',
-      description: 'Full production support from concept to final export, designed for repeatable quality.'
+      title: 'Growth Support Services',
+      description: 'Beyond websites, we also support businesses with content systems and lead generation that help bring in more opportunities.'
     }
   ];
 
@@ -24,10 +24,10 @@ export default function ValueProposition() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
-            What <span className="font-semibold text-gold-600">You Get</span>
+            <span className="font-semibold text-gold-600">Built for Businesses That Need Practical Results</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light leading-relaxed">
-            It's video production, creative strategy, content systems, and repeatable delivery built for brands that publish with purpose.
+            Built for service businesses, growing brands, and founders who want reliable digital support without overcomplication.
           </p>
         </div>
 
@@ -50,16 +50,6 @@ export default function ValueProposition() {
           ))}
         </div>
 
-        <div className="mt-16 p-10 md:p-14 bg-gradient-to-br from-white to-cream-100 border border-gold-200/40 rounded-3xl shadow-lg shadow-gold-100/10">
-          <div className="max-w-3xl mx-auto text-center">
-            <h3 className="text-2xl md:text-3xl font-light text-gray-800 mb-4">
-              From UGC-style ads to faceless explainers
-            </h3>
-            <p className="text-base text-gray-600 leading-relaxed font-light">
-              Product promos to multilingual content—professional video production that adapts to how your business actually needs to communicate.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );

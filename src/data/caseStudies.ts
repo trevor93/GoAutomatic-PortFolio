@@ -11,58 +11,44 @@ export interface CaseStudy {
 export const caseStudies: CaseStudy[] = [
   {
     id: '1',
-    clientType: 'Ecommerce Skincare Brand',
-    goal: 'Launch a new product line with consistent short-form video content across Instagram and TikTok',
-    approach: 'Developed a repeatable video template system using existing product footage, customer testimonials, and brand B-roll',
+    clientType: 'Service Business',
+    goal: 'Business Website Build — Clearer Presence, Better Trust',
+    approach: 'A business needed a cleaner online presence that looked professional and made its services easier to understand. We focused on clearer presentation, stronger structure, and a more credible digital experience.',
     deliverables: [
-      '12 vertical videos per month',
-      'Multiple aspect ratios for each piece',
-      'Branded intro/outro templates',
-      'Organized asset library'
+      'Professional website design',
+      'Clear service presentation',
+      'Improved trust signals',
+      'Mobile-responsive layout'
     ],
-    outcome: 'Built to improve content consistency and trust',
-    whyItWorked: 'Clear structure, fast turnaround, and professional packaging helped the brand maintain a premium look while publishing frequently'
+    outcome: 'Improved online credibility and customer trust',
+    whyItWorked: 'Strong visual design and clear messaging helped the business communicate value more effectively to potential clients'
   },
   {
     id: '2',
-    clientType: 'Personal Brand Coach',
-    goal: 'Repurpose long-form podcast content into engaging short clips for social growth',
-    approach: 'Created a workflow to identify high-value moments, add dynamic captions, and package clips with strong hooks',
+    clientType: 'Growing Business',
+    goal: 'Technical Cleanup — Practical Fixes That Reduced Friction',
+    approach: 'A growing digital workflow needed structured troubleshooting and cleanup support. We worked through issues carefully, improved clarity, and helped move the system toward a more stable setup.',
     deliverables: [
-      '20+ short-form clips per month',
-      'Subtitle formatting and motion graphics',
-      'Thumbnail creation',
-      'Platform-specific optimization'
+      'Issue identification and documentation',
+      'Systematic problem solving',
+      'System cleanup and optimization',
+      'Performance improvements'
     ],
-    outcome: 'Designed to package the offer clearly in short-form format',
-    whyItWorked: 'Strategic clip selection and professional editing turned evergreen content into a reliable lead generation tool'
+    outcome: 'Reduced technical friction and improved workflow stability',
+    whyItWorked: 'Methodical troubleshooting and practical fixes removed barriers that were slowing down operations'
   },
   {
     id: '3',
-    clientType: 'Hospitality Group (Gulf Region)',
-    goal: 'Produce multilingual promotional videos for hotel properties targeting Arabic and English audiences',
-    approach: 'Built custom video templates with localized voiceovers, text overlays, and culturally appropriate messaging',
+    clientType: 'Business Growth',
+    goal: 'Growth Support — Content and Lead Flow Direction',
+    approach: 'For businesses that need more than just a website, we also support visibility and client acquisition efforts through practical content direction and lead generation support.',
     deliverables: [
-      'Dual-language video versions',
-      'Seasonal campaign content',
-      'Location highlight reels',
-      'Social ads and website hero videos'
+      'Content strategy development',
+      'Lead generation system setup',
+      'Client acquisition support',
+      'Growth opportunity identification'
     ],
-    outcome: 'Adapted for multilingual audience positioning',
-    whyItWorked: 'Professional localization and attention to cultural nuance created trust with both local and international guests'
-  },
-  {
-    id: '4',
-    clientType: 'Real Estate Agency',
-    goal: 'Create a library of property tour videos and listing promos with fast turnaround',
-    approach: 'Established a streamlined production system using agent-shot footage, drone clips, and templated editing',
-    deliverables: [
-      'Property tour videos',
-      'Vertical listing promos',
-      'Agent introduction videos',
-      'Neighborhood highlight reels'
-    ],
-    outcome: 'Created as part of a repeatable content workflow',
-    whyItWorked: 'Organized intake process and quick revisions allowed the team to publish professional videos the same week as listing launches'
+    outcome: 'Expanded reach and increased client acquisition opportunities',
+    whyItWorked: 'Integrated approach to content and lead generation created more consistent opportunities for business growth'
   }
 ];

@@ -2,7 +2,6 @@ import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import ValueProposition from './components/ValueProposition';
 import WorkCategories from './components/WorkCategories';
-import Portfolio from './components/Portfolio';
 import CaseStudies from './components/CaseStudies';
 import Services from './components/Services';
 import Process from './components/Process';
@@ -20,7 +19,6 @@ function App() {
       <Hero />
       <ValueProposition />
       <WorkCategories />
-      <Portfolio />
       <CaseStudies />
       <Services />
       <Process />

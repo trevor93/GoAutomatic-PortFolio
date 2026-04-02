@@ -7,10 +7,10 @@ export default function CaseStudies() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
-            Case <span className="font-semibold text-gold-600">Studies</span>
+            Selected <span className="font-semibold text-gold-600">Projects</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light">
-            Real projects. Real workflows. Real business value.
+            A look at the type of work we help businesses with across websites, systems, and growth support.
           </p>
         </div>
 

@@ -53,27 +53,19 @@ export const portfolioItems: PortfolioItem[] = [
 
 export const workCategories = [
   {
-    title: 'Product Promos',
-    description: 'High-impact short-form videos that showcase products with clarity and convert viewers into customers.'
+    title: 'Website Development',
+    description: 'Professional business websites built to present your offer clearly, improve trust, and help visitors take action. Ideal for service businesses, local brands, and founders who need a strong online presence.'
   },
   {
-    title: 'UGC-Style Ads',
-    description: 'Authentic creator-driven content built for trust, performance, and modern paid social platforms.'
+    title: 'Troubleshooting, Fixes & Debugging',
+    description: 'Practical technical support for websites, pages, forms, and digital workflows. We help identify issues, clean up problems, and restore things so your business can keep moving.'
   },
   {
-    title: 'Direct Response Creatives',
-    description: 'Structured videos designed to present offers clearly and drive immediate action.'
+    title: 'Automatic Content Creation',
+    description: 'Content support systems designed to help businesses stay visible online with less manual effort. Useful for brands that want consistency without handling everything themselves.'
   },
   {
-    title: 'Faceless Explainers',
-    description: 'Professional B-roll and motion-based videos that communicate complex ideas without on-camera talent.'
-  },
-  {
-    title: 'Arabic / Multilingual Video',
-    description: 'Culturally adapted content for Gulf and international audiences with localized messaging.'
-  },
-  {
-    title: 'Content Systems',
-    description: 'Repeatable production workflows for brands that need consistent quality at scale.'
+    title: 'Client Lead Generation',
+    description: 'Lead research and client acquisition support to help businesses find relevant prospects, organize outreach opportunities, and create more chances for revenue.'
   }
 ];

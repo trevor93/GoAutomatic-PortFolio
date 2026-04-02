@@ -6,10 +6,10 @@ export default function WorkCategories() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
-            Featured <span className="font-semibold text-gold-600">Work Categories</span>
+            What We Help Businesses <span className="font-semibold text-gold-600">Do</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light">
-            Specialized production across formats that matter for modern business growth.
+            Practical digital services built to improve trust, fix problems, and support growth.
           </p>
         </div>
 
