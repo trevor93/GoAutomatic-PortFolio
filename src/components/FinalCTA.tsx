@@ -7,12 +7,10 @@ export default function FinalCTA() {
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="text-4xl md:text-5xl font-light text-white mb-6 leading-tight">
-          If your brand needs content that looks <span className="font-semibold text-gold-400">sharper</span>,
-          ships <span className="font-semibold text-gold-400">faster</span>,
-          and feels more <span className="font-semibold text-gold-400">consistent</span>
+          Your Online Presence Should Help Your Business Move Forward — <span className="font-semibold text-gold-400">Not Hold It Back.</span>
         </h2>
         <p className="text-lg text-gray-300 mb-12 leading-relaxed font-light">
-          Bring the offer, the footage, or even just the brief. We handle the rest.
+          If your website is weak, your systems are messy, or your business needs more digital support, GoAutomatic helps you fix the foundation first and grow from there.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -20,10 +18,7 @@ export default function FinalCTA() {
             href="#contact"
             className="group w-full sm:w-auto px-10 py-4 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-full hover:shadow-2xl hover:shadow-gold-500/30 transition-all duration-300 text-base font-medium flex items-center justify-center hover:scale-105"
           >
-            Start a Project
-            <svg className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
+            Let's Talk About Your Project →
           </a>
         </div>
 

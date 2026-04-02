@@ -44,35 +44,27 @@ export interface FAQ {
 
 export const faqs: FAQ[] = [
   {
-    question: 'What kinds of brands do you work with?',
-    answer: 'I work with ecommerce brands, personal brands, hospitality and tourism businesses, real estate agencies, clinics, healthcare providers, and small to midsize companies that need recurring short-form video content. The common thread is a need for professional, consistent creative execution.'
+    question: 'What is your main service?',
+    answer: 'Our main services are Website Development and Troubleshooting, Fixes & Debugging. We also offer Automatic Content Creation and Client Lead Generation as secondary support services for businesses that need broader growth support.'
   },
   {
-    question: 'Do you only edit, or do you also help structure content?',
-    answer: 'I provide full production support: strategy, scripting, structure, editing, packaging, and delivery. While editing is a core skill, the real value is in understanding how to position content for business results, not just making clips look good.'
+    question: 'What kind of businesses do you work with?',
+    answer: 'We work with businesses, founders, and brands that need a stronger online presence, practical technical help, or support improving how they attract clients online.'
   },
   {
-    question: 'Can you work with existing footage and brand assets?',
-    answer: 'Absolutely. Most projects involve working with client-provided footage, product shots, B-roll, stock assets, or existing brand materials. I can also guide you on what footage to capture if you are starting fresh.'
+    question: 'Do you only build new websites?',
+    answer: 'No. We can help with both new website development and support for existing websites, including updates, fixes, cleanup, and troubleshooting.'
   },
   {
-    question: 'Do you offer recurring monthly support?',
-    answer: 'Yes. Many clients work with me on a monthly retainer basis for ongoing content production. This ensures priority turnaround, consistent quality, and a reliable workflow for brands that publish regularly.'
+    question: 'Do you also help with growth support?',
+    answer: 'Yes. In addition to websites and technical support, we also help with automatic content creation support and client lead generation for businesses that want broader digital support.'
   },
   {
-    question: 'Can you create multilingual videos?',
-    answer: 'Yes. I specialize in Arabic and English video production, including localized voiceovers, text overlays, and culturally adapted messaging for Gulf and international audiences.'
+    question: 'How do I get started?',
+    answer: 'Send a short message about your business, what you need help with, and any current website or workflow issue. We will review it and respond with the clearest next step.'
   },
   {
-    question: 'How does the review process work?',
-    answer: 'After the initial brief, I deliver a first draft for review. You provide feedback in one organized round, I make revisions, and then deliver the final files. The process is structured to avoid endless back-and-forth while ensuring you are happy with the result.'
-  },
-  {
-    question: 'What is the typical turnaround time?',
-    answer: 'Turnaround depends on project scope and current capacity. Most short-form videos are delivered within 3-7 business days. Monthly clients get priority scheduling. Rush delivery is available when needed.'
-  },
-  {
-    question: 'Do you help with content strategy or just execution?',
-    answer: 'Both. While execution is the primary deliverable, I often provide input on content structure, messaging, platform optimization, and how to build repeatable systems. The goal is to help your content work harder for your business.'
+    question: 'Can I hire you for one specific service only?',
+    answer: 'Yes. You can hire GoAutomatic for one service only, such as Website Development or Troubleshooting, or combine services depending on your business needs.'
   }
 ];

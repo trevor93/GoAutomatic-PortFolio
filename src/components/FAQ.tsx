@@ -10,7 +10,7 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
-            Common <span className="font-semibold text-gold-600">Questions</span>
+            Straight Answers to <span className="font-semibold text-gold-600">Common Questions</span>
           </h2>
           <p className="text-lg text-gray-600 font-light">
             Common questions about working together.

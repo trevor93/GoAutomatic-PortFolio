@@ -8,16 +8,16 @@ export default function Footer() {
           <img
             src="/image_2026-03-28_15-32-12-removebg-preview.png"
             alt="GoAuto Portfolio Logo"
-            className="h-32 w-auto mb-8 opacity-90"
+            className="h-56 w-auto mb-8 opacity-90"
           />
           <p className="text-gray-600 leading-relaxed text-center max-w-md font-light">
-            Professional video production for brands that need quality, consistency, and strategic content execution.
+            GoAutomatic — Website Development, Troubleshooting, and Practical Digital Support for Growing Businesses.
           </p>
         </div>
 
         <div className="pt-8 border-t border-gold-200/30 flex flex-col items-center text-center">
           <p className="text-sm text-gray-500 mb-4 font-light">
-            © {currentYear} GoAuto Portfolio. Professional video content production.
+            © {currentYear} GoAutomatic. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-gray-500 hover:text-gold-600 transition-colors font-light">
