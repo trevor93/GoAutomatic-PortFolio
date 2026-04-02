@@ -6,10 +6,10 @@ export default function Services() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
-            <span className="font-semibold text-gold-600">Services</span>
+            What You Can Hire GoAutomatic <span className="font-semibold text-gold-600">For</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light">
-            Professional video production tailored to how your business actually needs to communicate.
+            Primary services for businesses that need solid digital foundations first — plus secondary support services for growth.
           </p>
         </div>
 
@@ -59,7 +59,7 @@ export default function Services() {
             href="#contact"
             className="inline-flex items-center px-10 py-4 bg-gradient-to-r from-gold-500 to-gold-600 text-white rounded-full hover:shadow-2xl hover:shadow-gold-400/40 transition-all duration-300 text-base font-medium hover:scale-105"
           >
-            Discuss Your Project
+            Start Your Project →
           </a>
         </div>
       </div>

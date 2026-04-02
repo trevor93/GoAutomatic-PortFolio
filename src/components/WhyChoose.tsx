@@ -4,33 +4,23 @@ export default function WhyChoose() {
   const reasons = [
     {
       icon: Shield,
-      title: 'Professional systems, not random editing',
-      description: 'Structured workflows that ensure consistency and quality across every project.'
+      title: 'They Need a Better Online Presence',
+      description: 'A weak website costs trust. Clients work with us when they need a cleaner, stronger business presence that makes them look serious.'
     },
     {
       icon: Zap,
-      title: 'Built for speed without sacrificing quality',
-      description: 'Fast turnaround times with the polish and attention to detail your brand deserves.'
+      title: 'They Need Problems Solved',
+      description: 'Broken pages, technical issues, and messy workflows create friction. Clients come to us when they want practical fixes without wasting time.'
     },
     {
       icon: Users,
-      title: 'Clear communication and organized delivery',
-      description: 'No endless revisions or confusion. Straightforward process from brief to final files.'
+      title: 'They Want More Than Just a Website',
+      description: 'Some businesses also need support with content direction and lead generation, so their digital presence does not just exist — it helps them grow.'
     },
     {
       icon: Globe,
-      title: 'Multi-format support for modern brands',
-      description: 'From UGC ads to multilingual content, adapt to how your audience actually consumes video.'
-    },
-    {
-      icon: Repeat,
-      title: 'Designed for repeatable content production',
-      description: 'Whether you need one video or ongoing support, the system scales with your needs.'
-    },
-    {
-      icon: Layers,
-      title: 'Strategy and execution in one place',
-      description: 'Not just editing—content structure, messaging, and business-focused creative thinking.'
+      title: 'They Prefer Simple, Reliable Support',
+      description: 'We keep things clear, practical, and business-focused. No unnecessary complexity. No inflated promises. Just useful digital support.'
     }
   ];
 
@@ -39,14 +29,14 @@ export default function WhyChoose() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
-            Why Clients <span className="font-semibold text-gold-600">Choose This Service</span>
+            Why Clients Work With <span className="font-semibold text-gold-600">GoAutomatic</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light">
-            Reliable. Professional. Built for business growth.
+            They want practical help, clear communication, and digital work that supports actual business goals.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {reasons.map((reason, index) => (
             <div
               key={index}

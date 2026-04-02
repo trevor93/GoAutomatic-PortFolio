@@ -9,45 +9,31 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: '1',
-    quote: 'The turnaround was faster than expected, and every video looked professional. It felt like working with a real production partner, not just an editor.',
-    author: 'Sarah M.',
-    role: 'Marketing Director',
-    company: 'Skincare Brand'
+    quote: 'What stood out most was the professionalism of the website and how much clearer our business looked online after the work was done.',
+    author: 'Business Owner',
+    role: '',
+    company: ''
   },
   {
     id: '2',
-    quote: 'I send raw footage and a brief. What I get back is polished, structured, and ready to post. The consistency has made our content calendar so much easier to manage.',
-    author: 'Omar K.',
-    role: 'Founder',
-    company: 'Personal Brand'
+    quote: 'We needed practical support, not complicated talk. The work helped us clean things up, present ourselves better, and move faster.',
+    author: 'Service Brand Founder',
+    role: '',
+    company: ''
   },
   {
     id: '3',
-    quote: 'We needed someone who understood both the creative side and the business side. The videos are sharp, but more importantly, they help us close clients.',
-    author: 'Jennifer L.',
-    role: 'Operations Manager',
-    company: 'Real Estate Agency'
+    quote: 'The combination of website support and growth-focused thinking made the service more useful than hiring for design alone.',
+    author: 'Growing Business',
+    role: '',
+    company: ''
   },
   {
     id: '4',
-    quote: 'Working in Arabic and English was seamless. The attention to cultural detail made a real difference in how our Gulf audience responded.',
-    author: 'Khalid A.',
-    role: 'Brand Manager',
-    company: 'Hospitality Group'
-  },
-  {
-    id: '5',
-    quote: 'I was tired of random editors who missed deadlines. This was organized, reliable, and the quality stayed consistent across dozens of videos.',
-    author: 'Mark T.',
-    role: 'CEO',
-    company: 'SaaS Startup'
-  },
-  {
-    id: '6',
-    quote: 'Instead of just editing, I got strategic input on how to structure our content. That systems-level thinking is what made this different from other services.',
-    author: 'Rachel P.',
-    role: 'Content Lead',
-    company: 'Ecommerce Store'
+    quote: 'We appreciated the clear communication, the practical fixes, and the fact that the work stayed focused on real business needs.',
+    author: 'Client Team',
+    role: '',
+    company: ''
   }
 ];
 

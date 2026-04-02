@@ -10,114 +10,86 @@ export interface Service {
 export const services: Service[] = [
   {
     id: '1',
-    title: 'Short-Form Video Editing',
-    description: 'Professional editing for Instagram Reels, TikTok, YouTube Shorts, and vertical video ads.',
+    title: 'Website Development',
+    description: 'Professional websites for businesses, brands, and founders who need a strong online presence that looks credible, communicates clearly, and supports real business growth.',
     includes: [
-      'Dynamic cuts and pacing',
-      'Captions and text overlays',
-      'Sound design and music',
-      'Color grading and polish',
-      'Platform-specific formatting'
+      'Professional website design',
+      'Clear service presentation',
+      'Mobile-responsive layout',
+      'Trust-building elements',
+      'Business-focused structure'
     ],
-    forWho: 'Brands and creators who need consistent, high-quality short-form content',
-    solves: 'Eliminates the time drain of editing while maintaining professional standards'
+    forWho: 'Businesses that need a strong, credible online presence',
+    solves: 'Creates professional websites that improve trust and support business growth'
   },
   {
     id: '2',
-    title: 'UGC-Style Ad Creative',
-    description: 'Authentic creator-style videos structured for paid social performance.',
+    title: 'Troubleshooting, Fixes & Debugging',
+    description: 'Technical support for website issues, broken sections, workflow problems, content errors, and practical digital fixes. Built for businesses that need problems solved without drama.',
     includes: [
-      'Hook and script optimization',
-      'Relatable pacing and delivery',
-      'Clear CTA integration',
-      'Multiple ad variations',
-      'Performance-focused editing'
+      'Issue identification and resolution',
+      'Website troubleshooting',
+      'Workflow problem solving',
+      'Content error fixes',
+      'Practical technical support'
     ],
-    forWho: 'Ecommerce brands running paid social campaigns',
-    solves: 'Creates trust-building content that performs in competitive ad environments'
+    forWho: 'Businesses facing technical issues that need quick resolution',
+    solves: 'Solves problems fast so your business can keep moving forward'
   },
   {
     id: '3',
-    title: 'Product Promo Videos',
-    description: 'High-conversion product videos that showcase features, benefits, and brand story.',
+    title: 'Automatic Content Creation',
+    description: 'Support for content systems that help businesses stay active online more consistently, with less manual effort and better workflow support.',
     includes: [
-      'Product + lifestyle B-roll integration',
-      'Benefit-driven messaging',
-      'Professional motion graphics',
-      'Multiple format exports',
-      'Optimized for web and social'
+      'Content system setup',
+      'Workflow automation support',
+      'Consistent publishing structure',
+      'Reduced manual effort',
+      'Online presence maintenance'
     ],
-    forWho: 'Product brands and online retailers',
-    solves: 'Turns existing footage into polished promo content that drives clarity and trust'
+    forWho: 'Businesses that want consistent online presence with less manual work',
+    solves: 'Helps maintain active online presence without overwhelming your team'
   },
   {
     id: '4',
-    title: 'Faceless Explainer Videos',
-    description: 'Clean, professional videos that explain complex services without on-camera talent.',
+    title: 'Client Lead Generation',
+    description: 'Lead research and outreach support for businesses that want help identifying prospects, organizing opportunities, and creating more chances to win clients.',
     includes: [
-      'Script consultation and structure',
-      'B-roll and stock footage sourcing',
-      'Voiceover integration',
-      'Motion graphics and text',
-      'Professional pacing and delivery'
+      'Prospect identification',
+      'Lead research support',
+      'Opportunity organization',
+      'Outreach preparation',
+      'Client acquisition support'
     ],
-    forWho: 'Service businesses, SaaS companies, and educational brands',
-    solves: 'Communicates value clearly without relying on camera-ready spokespeople'
+    forWho: 'Businesses that need more qualified leads and client opportunities',
+    solves: 'Creates more opportunities for revenue by identifying and organizing leads'
   },
   {
     id: '5',
-    title: 'Multilingual Video Production',
-    description: 'Video content adapted for Arabic, English, and international audiences.',
+    title: 'Website Updates & Support',
+    description: 'Ongoing support for edits, improvements, and small updates that help keep your website useful, current, and client-ready.',
     includes: [
-      'Localized voiceover and text',
-      'Cultural adaptation and messaging',
-      'Multi-language subtitle options',
-      'Regional platform optimization',
-      'Dual-version delivery'
+      'Content updates and edits',
+      'Feature improvements',
+      'Ongoing maintenance',
+      'Regular optimization',
+      'Client-ready presentation'
     ],
-    forWho: 'Brands targeting Gulf markets or multilingual audiences',
-    solves: 'Expands reach with culturally appropriate content that builds trust across regions'
+    forWho: 'Businesses that need ongoing website maintenance and updates',
+    solves: 'Keeps your website current and effective without internal technical overhead'
   },
   {
     id: '6',
-    title: 'B-Roll / Mixed Asset Storytelling',
-    description: 'Brand story videos that combine customer footage, product shots, and environmental B-roll.',
+    title: 'Landing Pages & Business Presentation',
+    description: 'Focused pages built to present one offer clearly, improve conversions, and help businesses communicate their value more effectively.',
     includes: [
-      'Asset organization and selection',
-      'Narrative structure and pacing',
-      'Music and sound design',
-      'Professional color and polish',
-      'Multiple deliverable formats'
+      'Focused page design',
+      'Clear offer presentation',
+      'Conversion optimization',
+      'Value communication',
+      'Professional presentation'
     ],
-    forWho: 'Hospitality, real estate, clinics, and experience-driven businesses',
-    solves: 'Transforms scattered footage into cohesive stories that communicate brand value'
-  },
-  {
-    id: '7',
-    title: 'Monthly Content Production Support',
-    description: 'Ongoing video production partnership for brands that need reliable, recurring content.',
-    includes: [
-      'Dedicated monthly capacity',
-      'Organized project intake',
-      'Priority turnaround',
-      'Consistent quality and branding',
-      'Flexible deliverable mix'
-    ],
-    forWho: 'Brands publishing regular content across multiple platforms',
-    solves: 'Provides consistent creative execution without the overhead of in-house teams'
-  },
-  {
-    id: '8',
-    title: 'Video Content System Setup',
-    description: 'Custom workflows and templates for repeatable, high-quality video production.',
-    includes: [
-      'Production workflow design',
-      'Template and asset library creation',
-      'Brand guideline integration',
-      'Process documentation',
-      'Training and handoff support'
-    ],
-    forWho: 'Growing brands that want to scale content production efficiently',
-    solves: 'Builds internal capacity with systems that ensure speed and consistency'
+    forWho: 'Businesses that need targeted pages for specific offers or campaigns',
+    solves: 'Improves conversion by communicating value clearly and professionally'
   }
 ];

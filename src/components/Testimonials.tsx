@@ -7,14 +7,14 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
-            Client <span className="font-semibold text-gold-600">Feedback</span>
+            What Clients Value <span className="font-semibold text-gold-600">Most</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto font-light">
-            What clients say about working together.
+            Professional presentation, practical help, and work that feels useful from day one.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
@@ -28,12 +28,16 @@ export default function Testimonials() {
                 <div className="font-semibold text-gray-800 text-sm">
                   {testimonial.author}
                 </div>
-                <div className="text-xs text-gray-500 mt-1">
-                  {testimonial.role}
-                </div>
-                <div className="text-xs text-gold-600 mt-0.5">
-                  {testimonial.company}
-                </div>
+                {testimonial.role && (
+                  <div className="text-xs text-gray-500 mt-1">
+                    {testimonial.role}
+                  </div>
+                )}
+                {testimonial.company && (
+                  <div className="text-xs text-gold-600 mt-0.5">
+                    {testimonial.company}
+                  </div>
+                )}
               </div>
             </div>
           ))}

@@ -1,4 +1,4 @@
-import { Mail, MessageCircle } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Contact() {
@@ -30,25 +30,25 @@ export default function Contact() {
         <div className="grid lg:grid-cols-3 gap-12">
           <div className="lg:col-span-1 space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">
+              <h3 className="text-3xl font-semibold text-gray-800 mb-6">
                 Get in Touch
               </h3>
-              <p className="text-gray-600 leading-relaxed mb-8 font-light">
+              <p className="text-base text-gray-600 leading-relaxed mb-8 font-light">
                 Whether you need a single video or ongoing production support, start with a quick conversation about your goals.
               </p>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-5">
               <a
                 href="mailto:hello@videosystems.pro"
-                className="flex items-start p-5 bg-white rounded-2xl border border-gold-200/30 hover:border-gold-400 hover:shadow-lg hover:shadow-gold-100/20 transition-all duration-300 group"
+                className="flex items-start p-6 bg-white rounded-2xl border border-gold-200/30 hover:border-gold-400 hover:shadow-lg hover:shadow-gold-100/20 transition-all duration-300 group"
               >
-                <Mail className="w-6 h-6 text-gold-600 mr-4 flex-shrink-0 mt-0.5" />
+                <Mail className="w-7 h-7 text-gold-600 mr-4 flex-shrink-0 mt-1" />
                 <div>
-                  <div className="font-semibold text-gray-800 group-hover:text-gold-600 transition-colors">
+                  <div className="font-semibold text-gray-800 group-hover:text-gold-600 transition-colors text-lg">
                     Email
                   </div>
-                  <div className="text-sm text-gray-600 font-light">
+                  <div className="text-base text-gray-600 font-light">
                     salmin@naiminvestment.com
                   </div>
                 </div>
@@ -58,14 +58,16 @@ export default function Contact() {
                 href="https://wa.me/1234567890"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-start p-5 bg-white rounded-2xl border border-gold-200/30 hover:border-gold-400 hover:shadow-lg hover:shadow-gold-100/20 transition-all duration-300 group"
+                className="flex items-start p-6 bg-white rounded-2xl border border-gold-200/30 hover:border-gold-400 hover:shadow-lg hover:shadow-gold-100/20 transition-all duration-300 group"
               >
-                <MessageCircle className="w-6 h-6 text-gold-600 mr-4 flex-shrink-0 mt-0.5" />
+                <svg className="w-7 h-7 text-gold-600 mr-4 flex-shrink-0 mt-1" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.378c-1.51.857-2.813 2.007-3.8 3.438C2.7 10.073 2 11.9 2 13.728c0 .983.192 1.953.564 2.863l.85-3.095c.674-2.453.674-2.718.674-2.87 0-1.466.504-2.75 1.347-3.74 1.946-2.25 5.455-3.182 8.687-2.368 1.584.404 3.001 1.138 4.105 2.191 1.104 1.053 1.861 2.423 2.191 4.006.33 1.581.157 3.407-.604 4.76-.761 1.351-2.237 2.453-3.994 2.695-1.757.242-3.282-.202-4.501-1.052" />
+                </svg>
                 <div>
-                  <div className="font-semibold text-gray-800 group-hover:text-gold-600 transition-colors">
+                  <div className="font-semibold text-gray-800 group-hover:text-gold-600 transition-colors text-lg">
                     WhatsApp
                   </div>
-                  <div className="text-sm text-gray-600 font-light">
+                  <div className="text-base text-gray-600 font-light">
                     +27 69 613 3396
                   </div>
                 </div>
